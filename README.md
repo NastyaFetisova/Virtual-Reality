@@ -17,10 +17,7 @@
 
 ---
 
-## 🚀 Быстрый просмотр
 
-Сайт можно посмотреть по ссылке:  
-👉 **https://nastya-fetisova.github.io/Virtual-Reality/**
 
 
 
