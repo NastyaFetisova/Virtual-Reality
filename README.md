@@ -6,15 +6,9 @@
 
 ## 📸 Внешний вид
 
-*[Здесь можно будет добавить скриншоты готового сайта]*
-
-| Главный экран | Галлерея | Отзывы |
-|--------------|----------|--------|
-|<img width="1920" height="910" alt="2026-06-14_23-30-45" src="https://github.com/user-attachments/assets/30ef736b-2d61-466b-89db-e5519abcc25e" />
-
- |<img width="1920" height="908" alt="2026-06-14_23-29-16" src="https://github.com/user-attachments/assets/c84a7f2f-f96b-4eb6-a3c5-d4d7420e294e" />
-| <img width="1920" height="904" alt="2026-06-14_23-29-37" src="https://github.com/user-attachments/assets/69a6d14d-a212-475d-89c4-abe608514694" />
- |
+| Главный экран | Галерея | Отзывы |
+|--------------|--------|--------|
+| <img width="1920" height="910" alt="Главный экран" src="https://github.com/user-attachments/assets/30ef736b-2d61-466b-89db-e5519abcc25e"> | <img width="1920" height="908" alt="Галерея" src="https://github.com/user-attachments/assets/c84a7f2f-f96b-4eb6-a3c5-d4d7420e294e"> | <img width="1920" height="904" alt="Отзывы" src="https://github.com/user-attachments/assets/69a6d14d-a212-475d-89c4-abe608514694"> |
 
 ---
 
