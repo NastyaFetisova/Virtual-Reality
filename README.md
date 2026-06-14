@@ -6,9 +6,14 @@
 
 ## 📸 Внешний вид
 
-| Главный экран | Галерея | Отзывы |
-|--------------|--------|--------|
-| <img width="1920" height="910" alt="Главный экран" src="https://github.com/user-attachments/assets/30ef736b-2d61-466b-89db-e5519abcc25e"> | <img width="1920" height="908" alt="Галерея" src="https://github.com/user-attachments/assets/c84a7f2f-f96b-4eb6-a3c5-d4d7420e294e"> | <img width="1920" height="904" alt="Отзывы" src="https://github.com/user-attachments/assets/69a6d14d-a212-475d-89c4-abe608514694"> |
+### Главный экран
+<img width="1920" height="910" alt="Главный экран" src="https://github.com/user-attachments/assets/30ef736b-2d61-466b-89db-e5519abcc25e">
+
+### Галерея
+<img width="1920" height="908" alt="Галерея" src="https://github.com/user-attachments/assets/c84a7f2f-f96b-4eb6-a3c5-d4d7420e294e">
+
+### Отзывы
+<img width="1920" height="904" alt="Отзывы" src="https://github.com/user-attachments/assets/69a6d14d-a212-475d-89c4-abe608514694">
 
 ---
 
