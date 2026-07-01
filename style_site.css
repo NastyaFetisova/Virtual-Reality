@@ -404,7 +404,8 @@ nav a.button:hover::after {
 .video {
     margin-top: 0.3px;
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 100px;
     width: 700px;
     background-color: #534686;
     clip-path: polygon(0 0, calc(100% - 35px) 0, 100% 30px, 100% 100%, 0 100%);
@@ -486,14 +487,23 @@ nav a.button:hover::after {
     width: 100%;
     text-align: center;
     margin-bottom: 15rem;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1.1px;
-    border-image-source: linear-gradient(71deg, rgba(185, 54, 245, 0.25) 2%, rgba(185, 54, 245, 0.2) 2%, rgba(170, 20, 240, 0.15) 109%);
-    border-image-slice: 1;
-    background-image: linear-gradient(to bottom, #aa14f0 -60%, rgba(0, 0, 0, 0) -70%, #aa14f0 -50%, rgba(170, 20, 240, 0.18), rgba(151, 60, 68, 0.05), rgba(185, 54, 245, 0), transparent 90%), linear-gradient(71deg, rgba(185, 54, 245, 0.25) 2%, rgba(185, 54, 245, 0.2) 2%, rgba(170, 20, 240, 0.15) 109%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+
+    border-radius: 14px;
+
+    border: 1px solid rgba(185, 54, 245, 0.35);
+
+    /* более фиолетовый, ближе к твоему оригиналу */
+    background: linear-gradient(180deg,
+            rgba(170, 20, 240, 0.18),
+            rgba(83, 70, 134, 0.35));
+
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+        inset 0 0 0 1px rgba(185, 54, 245, 0.18);
+    position: relative;
+    /* overflow: hidden; */
+    isolation: isolate;
 }
 
 .reviews h1 {
@@ -523,40 +533,31 @@ nav a.button:hover::after {
 .client-card {
     min-height: 170px;
     flex: 0 0 300px;
-    border-radius: 10px;
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-    border-style: solid;
-    border-width: 0.8px;
-    border-image-source: linear-gradient(60deg,
-            rgba(185, 54, 245, 0.25) 2%,
-            rgba(185, 54, 245, 0.2) 2%,
-            rgba(170, 20, 240, 0.15) 109%);
-    border-image-slice: 1;
-    background-image: linear-gradient(to bottom,
-            #aa14f0 -100%,
-            rgba(0, 0, 0, 0) -100%,
-            #cb8de8 -100%,
-            rgba(203, 143, 232, 0.18),
-            rgba(151, 60, 68, 0.05),
-            rgba(199, 137, 228, 0)),
-        linear-gradient(60deg,
-            rgba(185, 54, 245, 0.25) 2%,
-            rgba(185, 54, 245, 0.2) 2%,
-            rgba(170, 20, 240, 0.15) 109%);
-    background-origin: border-box;
-    z-index: 2;
-}
 
-.client-card {
+    border-radius: 10px;
+
+    border: 1px solid rgba(185, 54, 245, 0.28);
+
+    /* теперь ближе к родителю по фону */
+    background: rgba(35, 18, 60, 0.92);
+
+    backdrop-filter: blur(15px);
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+
     font-size: 12px;
     padding: 10px 12px;
     text-align: left;
+
+    /* чтобы не “терялись” в родителе */
+    box-shadow:
+        0 6px 18px rgba(0, 0, 0, 0.25);
 }
+
+
 
 .client-card img {
     width: 5rem;
@@ -655,35 +656,23 @@ nav a.button:hover::after {
 
 .explore-product {
     display: flex;
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-    border-style: solid;
-    border-width: 0.8px;
-    border-image-source: linear-gradient(60deg,
-            rgba(185, 54, 245, 0.25) 2%,
-            rgba(185, 54, 245, 0.2) 2%,
-            rgba(170, 20, 240, 0.15) 109%);
-    border-image-slice: 1;
-    background-image: linear-gradient(to bottom,
-            #aa14f0 -100%,
-            rgba(0, 0, 0, 0) -100%,
-            #cb8de8 -100%,
-            rgba(203, 143, 232, 0.18),
-            rgba(151, 60, 68, 0.05),
-            rgba(199, 137, 228, 0)),
-        linear-gradient(60deg,
-            rgba(185, 54, 245, 0.25) 2%,
-            rgba(185, 54, 245, 0.2) 2%,
-            rgba(170, 20, 240, 0.15) 109%);
-    background-origin: border-box;
-
 
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
+
     padding: 4rem 5rem;
     margin-bottom: 10rem;
+
     border-radius: 20px;
+
+    border: 1px solid rgba(185, 54, 245, 0.25);
+
+    background: rgba(35, 18, 60, 0.92);
+
+    backdrop-filter: blur(15px);
+
+    box-shadow: inset 0 0 0 1px rgba(170, 20, 240, 0.15);
 }
 
 .explore-product-text {
